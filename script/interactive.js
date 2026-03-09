@@ -1,4 +1,4 @@
-clickBox = document.querySelector('body')
+clickBox = document.querySelector('.rectangle')
 
 clickBox.addEventListener('click', () => {
     clickBox.classList.toggle("bg")
