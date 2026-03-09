@@ -6,7 +6,7 @@ index = 0
 
 clickBox.addEventListener('click', () => {
     clickBox.style.background = colors[index]
-    
+    document.
     index = index + 1
     if (index == colors.length) {
         index = 0
