@@ -9,3 +9,18 @@ body {
     justify-content: center;
     margin: 0;
 }
+
+.load-text {
+    font-size: 50px;
+    opacity: 1;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: blue;
+    position: absolute;
+    filter: blur(100px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,5 +1,5 @@
-loadText = document.querySelector('.loading-text')
-container = document.querySelector('.container')
+loadingText = document.querySelector('.load-text')
+bg = document.querySelector('.bg')
 
 load = 0
 
@@ -15,4 +15,3 @@ function blurring() {
         clearInterval(int)
     }
 }
-
