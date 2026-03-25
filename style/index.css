@@ -10,18 +10,26 @@ body {
     margin: 0;
 }
 
+.text {
+    color: black;
+}
+
 nav a:hover {
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .loading-text {
     font-size: 50px;
     opacity: 0;
+    color: black;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
     background: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(100px); */
 }
