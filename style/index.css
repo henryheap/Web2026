@@ -15,12 +15,14 @@ body {
     opacity: 1;
 }
 
-.container {
+.bg {
     width: 100vw;
     height: 100vh;
     background: blue;
     position: absolute;
-    filter: blur(100px);
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
+    filter: blur(100px);
+
 }
