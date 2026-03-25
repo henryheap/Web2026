@@ -10,16 +10,13 @@ body {
     margin: 0;
 }
 
-.text {
-    color: black;
-}
 
 nav a:hover {
     font-weight: bold;
     color: white;
 }
 
-.loading-text {
+.text {
     font-size: 50px;
     opacity: 0;
     color: black;
