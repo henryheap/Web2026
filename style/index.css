@@ -14,3 +14,14 @@ nav a:hover {
     font-weight: bold;
     color: black;
 }
+
+.loading-text {
+    font-size: 50px;
+    opacity: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: blue;
+}
